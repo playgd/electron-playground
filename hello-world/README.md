@@ -5,6 +5,7 @@
 - [x] No window frame;
 - [x] Navigation on history;
 - [x] Minimize, maximize and close actions on simple buttons
+- [x] Move window dragging by header
 - [ ] Build OS versions
   - [ ] Linux
   - [ ] OSX
