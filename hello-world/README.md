@@ -2,9 +2,13 @@
 
 ## Features
 
-- No window frame;
-- Navigation on history;
-- Minimize, maximize and close actions on simple buttons
+- [x] No window frame;
+- [x] Navigation on history;
+- [x] Minimize, maximize and close actions on simple buttons
+- [ ] Build OS versions
+  - [ ] Linux
+  - [ ] OSX
+  - [ ] Windows
 
 ## Up and running
 
