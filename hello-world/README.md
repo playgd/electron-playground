@@ -7,9 +7,9 @@
 - [x] Minimize, maximize and close actions on simple buttons
 - [x] Move window dragging by header
 - [ ] Build OS versions
-  - [ ] Linux
-  - [ ] OSX
-  - [ ] Windows
+  - [x] Linux
+  - [x] OSX
+  - [x] Windows
 
 ## Up and running
 
