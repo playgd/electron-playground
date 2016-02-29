@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . HelloWorld --platform=all --arch=x64 --version 0.36.8 --overwrite --out ./build"
+    "build": "electron-packager . HelloWorld --platform=all --arch=x64 --ignore='/build' --version 0.36.8 --overwrite --out ./build"
   },
   "devDependencies": {
     "electron-packager": "^5.2.1"
