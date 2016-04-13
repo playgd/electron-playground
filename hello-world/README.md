@@ -6,7 +6,7 @@
 - [x] Navigation on history;
 - [x] Minimize, maximize and close actions on simple buttons
 - [x] Move window dragging by header
-- [ ] Build OS versions
+- [x] Build OS versions
   - [x] Linux
   - [x] OSX
   - [x] Windows
