@@ -26,7 +26,7 @@ app.on('ready', () => {
   server = http.createServer(expressApp);
   server.listen(port);
   server.on('listening', () => {
-    mainWindow.loadURL('http://localhost:8080');
+    mainWindow.loadURL(`http://localhost:${port}`);
   });
   mainWindow.on('closed', () => {
     mainWindow = null;
