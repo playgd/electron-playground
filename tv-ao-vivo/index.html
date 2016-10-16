@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Record</title>
+
+    <style>
+      body { margin: 0; padding: 0; border: 0; }
+      iframe { width: 640px; height: 380px; }
+      .buttons { display: flex; height: 60px }
+      button { flex-grow: 1; text-transform: uppercase; font: 700 20px sans-serif }
+    </style>
+
+  </head>
+  <body>
+    <div class="buttons">
+      <button data-js="button" data-channel="record">Record</button>
+      <button data-js="button" data-channel="band">Band</button>
+      <button data-js="button" data-channel="sbt">SBT</button>
+    </div>
+
+    <webview src="http://www.adobe.com/software/flash/about/" plugins height="300"></webview>
+
+    <iframe
+      src="http://ekostreams.co/ch/{channel}.php?width=640&height=380"
+      allowfullscreen webkitallowfullscreen mozallowfullscreen
+      frameborder="0"
+      width="100%"
+      height="100%"
+      scrolling="no"
+      border="0"
+      frameborder="0"
+      data-js="iframe">
+    </iframe>
+  </body>
+
+  <script>
+    require('./renderer.js')
+  </script>
+</html>
