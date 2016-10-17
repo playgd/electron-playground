@@ -3,8 +3,8 @@ const path = require('path')
 let mainWindow
 
 process.on('uncaughtException', (err) => {
-  return;
-});
+  return
+})
 
 const flashPlugin = {
   win32: 'pepflashplayer.dll',
